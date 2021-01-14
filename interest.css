@@ -1,0 +1,112 @@
+body{
+    background-color: black;
+}
+#header{
+    background-color: rgb(0, 0, 0);
+    top: 0;
+    margin-top: 0;
+    border-radius: 30px;
+    /* display: flex; */
+    align-items: center;
+}
+
+
+#logoContainer img{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+#headingContainer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+h2{
+   margin: auto;
+   text-align: center;
+}
+
+
+
+#navbar{
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    box-shadow: teal;
+    border-radius: 20px;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 10%;
+    margin: auto;
+    column-gap: 10%;
+    border: solid green 3px;
+    /* position: fixed;
+    width: 95%; */
+}
+
+
+#home:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: rgb(143, 28, 250);
+    align-items: center;
+    border-radius: 4px;
+    padding: 1%;
+}
+#email:hover{
+    color: white;
+    cursor: pointer;
+    background-color: rgb(143, 28, 250);
+    align-items: center;
+    border-radius: 4px;
+    padding: 1%;
+}
+#blog:hover{
+    color: white;
+    cursor: pointer;
+    background-color: rgb(143, 28, 250);
+    align-items: center;
+    border-radius: 4px;
+    padding: 1%;
+}
+#social:hover{
+    color: white;
+    cursor: pointer;
+    background-color: rgb(143, 28, 250);
+    align-items: center;
+    border-radius: 4px;
+    padding: 1%;
+}
+
+#headingContainer{
+    text-align: center;
+    margin-top: 0;
+}
+
+#firstHeading{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#interestsContainer{
+    border: solid green 10px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 30px;
+}
+.aboutInterest{
+    border: solid white 3px;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+hr{
+    margin-right: 20px;
+}
+
+#interestsContainer ul li{
+    margin-bottom: 20px;
+}

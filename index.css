@@ -1,0 +1,199 @@
+body{
+    background-color: black;
+}
+#header{
+    background-color: rgb(0, 0, 0);
+    top: 0;
+    margin-top: 0;
+    border-radius: 30px;
+    /* display: flex; */
+    align-items: center;
+}
+
+
+#logoContainer img{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+#headingContainer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+h2{
+   margin: auto;
+   text-align: center;
+}
+
+
+
+#navbar{
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    box-shadow: teal;
+    border-radius: 20px;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 10%;
+    margin: auto;
+    column-gap: 10%;
+    border: solid green 3px;
+    /* position: fixed;
+    width: 95%; */
+}
+
+
+#home:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: rgb(143, 28, 250);
+    align-items: center;
+    border-radius: 4px;
+    padding: 1%;
+}
+#email:hover{
+    color: white;
+    cursor: pointer;
+    background-color: rgb(143, 28, 250);
+    align-items: center;
+    border-radius: 4px;
+    padding: 1%;
+}
+#blog:hover{
+    color: white;
+    cursor: pointer;
+    background-color: rgb(143, 28, 250);
+    align-items: center;
+    border-radius: 4px;
+    padding: 1%;
+}
+#social:hover{
+    color: white;
+    cursor: pointer;
+    background-color: rgb(143, 28, 250);
+    align-items: center;
+    border-radius: 4px;
+    padding: 1%;
+}
+
+#myImageContainer img{
+    border-radius: 500px;
+    margin-left: 2.5%;
+    height: 300px;
+    width: 300px;
+    align-items: center;
+}
+
+#nameContainer{
+    text-align: center;
+    color: black;
+    margin-right: 20%;
+    padding-left: 20%;
+    float: right;
+    background-color: white;
+    padding: 5rem;
+    border-radius: 2rem;
+    border: solid gray 4px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10%;
+}
+h1{
+    font-size: xx-large;
+    border: solid gray 2px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+h2{
+    font-size: x-large;
+}
+
+#myInterests{
+    font-family: cursive;
+    text-decoration: none;
+    padding-left: 2%;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 5px;
+}
+
+#myInterests a{
+    text-decoration: none;
+    color: black;
+   
+}
+
+#myInterests a p:hover{
+    color: blue;
+
+}
+
+#myInterests a p{
+    font-size: larger;
+}
+
+#aboutMeContainer{
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    font-family: cursive;
+}
+
+#about{
+    border: solid white 2px;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#academicLife{
+    font-family: cursive;
+    text-decoration: none;
+    padding-left: 2%;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 5px;
+}
+
+#academicLife a{
+    text-decoration: none;
+    color: black;
+}
+
+#academicLife a p:hover{
+    color: blue;
+}
+
+#academicLife a p{
+    font-size: larger;
+}
+
+#favorite{
+    font-family: cursive;
+    text-decoration: none;
+    padding-left: 2%;
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 5px;
+}
+
+#favorite a{
+    text-decoration: none;
+    color: black;
+}
+
+#favorite a p:hover{
+    color: blue;
+}
+
+#favorite a p{
+    font-size: larger;
+}

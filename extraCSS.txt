@@ -1,0 +1,105 @@
+#myImageContainer img{
+    border-radius: 700px;
+    height: 35%;
+    width: 35%;
+}
+
+body{
+    background-color: black;
+}
+
+#myImageContainer{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    place-items: center;
+}
+
+#myImageContainer::after{
+    content: "";
+    position: absolute;
+    background: url("image url") center / cover;
+    z-index: -2;
+    transition: .5s;
+    transform: scale(1);
+}
+
+#myImageContainer::before{
+    content: "";
+    position: absolute;
+    transition: .5s;
+    z-index: -1;
+    background: rgba(0,0,0,0);
+}
+.textbox{
+    box-sizing: border-box;
+    opacity: 0;
+    transition: .7s;
+    overflow: hidden;
+}
+
+span{
+    display: block;
+    color: #fff;
+    margin: 1rem;
+    transform: translateX(-100px);
+    transition: .7s ease;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+span:nth-child(1){
+    font-size: 1.6rem;
+    transition-delay: .2s;
+}
+
+span:nth-child(2){
+    font-size: 1.3rem;
+    transition-delay: .3s;
+}
+
+span:nth-child(3){
+    transition-delay: .4s;
+}
+
+#myImageContainer:hover .textbox span{
+    transform: translateX(0);
+}
+
+#myImageContainer:hover::before{
+    background: rgba(0, 0, 0, .4);
+}
+
+#myImageContainer:hover::after{
+    transform: scale(1.2);
+}
+
+#myImageContainer:hover .textbox{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#myImage img{
+    height: 100px;
+    width: 100px;
+    border-radius: 40px;
+}
+ 
+#myImage{
+    margin-right: 5%;
+}
+
+
+
+
+<div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>
