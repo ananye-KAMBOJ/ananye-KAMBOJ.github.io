@@ -1,0 +1,198 @@
+body{
+    background-color: black;
+}
+#header{
+    background-color: rgb(0, 0, 0);
+    top: 0;
+    margin-top: 0;
+    border-radius: 30px;
+    /* display: flex; */
+    align-items: center;
+}
+
+
+#logoContainer img{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+#headingContainer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+h2{
+   margin: auto;
+   text-align: center;
+}
+
+
+
+#navbar{
+    background-color: white;
+    display: flex;
+    padding: 20px;
+    box-shadow: teal;
+    border-radius: 20px;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right: 10%;
+    margin: auto;
+    column-gap: 10%;
+    border: solid green 3px;
+    /* position: fixed;
+    width: 95%; */
+}
+
+
+#home:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    background-color: rgb(143, 28, 250);
+    align-items: center;
+    border-radius: 4px;
+    padding: 1%;
+}
+#email:hover{
+    color: white;
+    cursor: pointer;
+    background-color: rgb(143, 28, 250);
+    align-items: center;
+    border-radius: 4px;
+    padding: 1%;
+}
+#blog:hover{
+    color: white;
+    cursor: pointer;
+    background-color: rgb(143, 28, 250);
+    align-items: center;
+    border-radius: 4px;
+    padding: 1%;
+}
+#social:hover{
+    color: white;
+    cursor: pointer;
+    background-color: rgb(143, 28, 250);
+    align-items: center;
+    border-radius: 4px;
+    padding: 1%;
+}
+
+.SkillsContainer {
+    margin-top: 30px;
+
+}
+
+.SkillClass {
+    /* background-color: white; */
+    border-radius: 500px;
+    margin-top: 6%;
+    text-align: center;
+}
+
+#skill1 {
+    padding: 10%;
+    /* margin-left: 70%; */
+    margin-right: 1%;
+    color: black;
+    background-color: white;
+    transition: 0.3s;
+}
+
+#skill1 h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+#skill1:hover {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    box-shadow: 5px 5px 5px 5px  teal;
+}
+
+#skill2 {
+    padding: 10%;
+    /* margin-left: 70%; */
+    margin-right: 1%;
+    color: black;
+    background-color: white;
+    transition: 0.3s;
+}
+
+
+#skill2 h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#skill2:hover {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    box-shadow: 5px 5px 5px 5px  teal;
+}
+
+#skill3 {
+    padding: 10%;
+    /* margin-left: 70%; */
+    margin-right: 1%;
+    color: black;
+    background-color: white;
+    transition: 0.3s;
+}
+
+
+
+#skill3 h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#skill3:hover {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    box-shadow: 5px 5px 5px 5px  teal;
+}
+
+#skill4 {
+    padding: 10%;
+    /* margin-left: 70%; */
+    margin-right: 1%;
+    color: black;
+    background-color: white;
+    transition: 0.3s;
+}
+
+
+
+#skill4 h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#skill4:hover {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    box-shadow: 5px 5px 5px 5px  teal;
+}
+
+#skill5 {
+    padding: 10%;
+    /* margin-left: 70%; */
+    margin-right: 1%;
+    color: black;
+    background-color: white;
+    transition: 0.3s;
+}
+
+
+#skill5 h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#skill5:hover {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    box-shadow: 5px 5px 5px 5px  teal;
+}
+
