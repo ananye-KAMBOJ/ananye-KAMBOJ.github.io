@@ -89,32 +89,31 @@ h2{
     padding: 0.5%;
 }
 
-#headingContainer{
+#BlogsTypeContainer {
+    display: flex;
+    color: white;
+}
+
+.TypeContainer {
+    flex: 1;
+    margin-top: 5%;
     text-align: center;
-    margin-top: 0;
-}
-
-#firstHeading{
-    color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 5%;
+    /* border: solid white 3px; */
+    padding: 10%;
 }
 
-#interestsContainer{
-    border: solid green 10px;
+.TypeContainer:hover {
+    box-shadow: 10px 10px 10px 10px  teal;
+
+}
+
+.TypeContainer a{
+    text-decoration: none;
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 30px;
-}
-.aboutInterest{
-    border: solid white 3px;
-    padding: 10px;
-    margin-right: 20px;
-    border-radius: 10px;
-}
-hr{
-    margin-right: 20px;
 }
 
-#interestsContainer ul li{
-    margin-bottom: 20px;
+#LatestBlogs {
+    margin-right: 10%;
 }

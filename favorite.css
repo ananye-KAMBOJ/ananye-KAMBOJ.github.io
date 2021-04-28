@@ -54,7 +54,7 @@ h2{
     background-color: rgb(143, 28, 250);
     align-items: center;
     border-radius: 4px;
-    padding: 1%;
+    padding: 0.5%;
 }
 #email:hover{
     color: white;
@@ -62,7 +62,7 @@ h2{
     background-color: rgb(143, 28, 250);
     align-items: center;
     border-radius: 4px;
-    padding: 1%;
+    padding: 0.5%;
 }
 #blog:hover{
     color: white;
@@ -70,7 +70,7 @@ h2{
     background-color: rgb(143, 28, 250);
     align-items: center;
     border-radius: 4px;
-    padding: 1%;
+    padding: 0.5%;
 }
 #social:hover{
     color: white;
@@ -78,7 +78,15 @@ h2{
     background-color: rgb(143, 28, 250);
     align-items: center;
     border-radius: 4px;
-    padding: 1%;
+    padding: 0.5%;
+}
+#podcast:hover{
+    color: white;
+    cursor: pointer;
+    background-color: rgb(143, 28, 250);
+    align-items: center;
+    border-radius: 4px;
+    padding: 0.5%;
 }
 
 #headingContainer{

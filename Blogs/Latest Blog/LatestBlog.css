@@ -89,32 +89,19 @@ h2{
     padding: 0.5%;
 }
 
-#headingContainer{
-    text-align: center;
-    margin-top: 0;
+.BlogList{
+    color: white;
+    padding: 3%;
 }
 
-#firstHeading{
+li {
+    margin: 10% 0;
+}
+
+li a{
+    text-decoration: none;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-#interestsContainer{
-    border: solid green 10px;
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 30px;
-}
-.aboutInterest{
-    border: solid white 3px;
-    padding: 10px;
-    margin-right: 20px;
-    border-radius: 10px;
-}
-hr{
-    margin-right: 20px;
-}
-
-#interestsContainer ul li{
-    margin-bottom: 20px;
+    font-size: x-large;
+    margin-left: 5%;
 }
